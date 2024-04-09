@@ -1,4 +1,4 @@
-FROM him411/hadoop-base:latest
+FROM registry.cn-guangzhou.aliyuncs.com/123acc/hadoop-base:3.4.0
 
 HEALTHCHECK CMD curl -f http://localhost:9870/ || exit 1
 
